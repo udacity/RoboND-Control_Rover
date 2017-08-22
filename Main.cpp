@@ -1,7 +1,4 @@
 #include <iostream>
-#include <stdio.h>
-#include <unistd.h>
-#include <termios.h>
 #include "src/Terminal.h"
 #include "src/TCP.h"
 using namespace std;

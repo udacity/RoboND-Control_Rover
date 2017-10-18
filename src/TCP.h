@@ -54,7 +54,7 @@ void ServerSend(const char* msg)
  	strcpy(buffer, msg);
         send(server, buffer, strlen(buffer), 0);
 	recv(client, buffer, 1, 0);	
-	cout << "recieved_data= " << buffer << endl;	
+	cout << "received_data= " << buffer << endl;	
 }
     
 

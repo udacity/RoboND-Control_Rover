@@ -8,7 +8,7 @@ Before you compile and run this program, download the rover simulator for [Windo
 
 ### Running the C++ Program
 You should consider compiling and executing this program inside an Ubuntu virtual machine!
-Before doing so, edit your VMWare or VMFusion network settings and make sure you are connected to the NAT network.#### 
+Before doing so, edit your VMWare or VMFusion network settings and make sure you are connected to the NAT network. 
 
 #### Navigate to a working directory and clone the repository:
 ```sh
@@ -27,7 +27,7 @@ $ g++ Main.cpp -o app
 $ ifconfig
 ```
 
-#### Run the program!:
+#### Finally, run the program:
 ```sh
 $  ./app
 ```

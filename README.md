@@ -6,8 +6,7 @@ A C++ program designed to accept user inputs and issue commands to the rover ins
 ### Rover Simulator:
 Before you compile and run this program, download the rover simulator for [Windows](https://s3-us-west-1.amazonaws.com/udacity-robotics/Term+2+Prep/RoverSim_Windows.zip) or [MacOS](https://s3-us-west-1.amazonaws.com/udacity-robotics/Term+2+Prep/RoverSim_MacOS.zip). Optionally you can download it for [Linux](https://s3-us-west-1.amazonaws.com/udacity-robotics/Term+2+Prep/RoverSim_Linux.zip), note that this version will only work with native Ubuntu!
 
-
-
+### Running C++ Program
 
 #### Navigate to the src folder in your catkin workspace:
 ```sh

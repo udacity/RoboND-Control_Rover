@@ -39,8 +39,8 @@ $  ./app
 
 ### Controlling the Rover 
 Refer to this table and control your robot with keyboard commands through the Ubuntu terminal!
-<center> 
 
+<center> 
 | **Command**        | **Description**         
 | -------------    |:-------------:|
 |     `w`   |Forward |
@@ -49,7 +49,6 @@ Refer to this table and control your robot with keyboard commands through the Ub
 |  `d`| Right     |
 |  `b`| Brake   |
 |  `p`| Pickup Ball  |      
- 
 </center>
 
 

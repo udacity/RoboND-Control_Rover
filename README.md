@@ -6,37 +6,57 @@ A C++ program designed to accept user inputs and issue commands to the rover ins
 ### Rover Simulator:
 Before you compile and run this program, download the rover simulator for [Windows](https://s3-us-west-1.amazonaws.com/udacity-robotics/Term+2+Prep/RoverSim_Windows.zip) or [MacOS](https://s3-us-west-1.amazonaws.com/udacity-robotics/Term+2+Prep/RoverSim_MacOS.zip). Optionally you can download it for [Linux](https://s3-us-west-1.amazonaws.com/udacity-robotics/Term+2+Prep/RoverSim_Linux.zip), note that this version will only work with native Ubuntu!
 
-### Running C++ Program
+### Running the C++ Program
+You should consider compiling and executing this program inside an Ubuntu virtual machine!
+Before doing so, edit your VMWare or VMFusion network settings and make sure you are connected to the NAT network.#### 
 
-#### Navigate to the src folder in your catkin workspace:
+#### Navigate to a working directory and clone the repository:
 ```sh
-$ cd ~/catkin_ws/src   
+$ cd Desktop
+$ git clone https://github.com/udacity/RoboND-Control_Rover.git
+$ cd ~/Desktop/RoboND-Control_Rover
 ```
 
-#### Clone the package:
+#### Now, compile the code:
 ```sh
-$ git clone https://github.com/udacity/simple_arm_C.git
+$ g++ Main.cpp -o app
 ```
 
-#### Source your environment:
+#### Before your run the program, take note of the IP address of your virtual machine:
 ```sh
-$ cd ~/catkin_ws
-$ source devel/setup.bash
+$ ifconfig
 ```
 
-#### After sourcing your environment, build the packages:
+#### Run the program!:
 ```sh
-$ catkin_make
+$  ./app
 ```
 
-#### Make sure to install the missing system dependencies:
-```sh
-$ rosdep install -i simple_arm
-```
+### Running the Rover Simulator
+1. Leave your virtual machine and run the simulator inside Windows or MacOS.
+2. Then, select your graphics settings and enter the IP address of your Ubuntu VM noted earlier!
+3. Select the Autonomous mode designed to accept TCP Communication.
 
-#### Once the `simple_arm` package has been built, you can launch the simulation environment using:
-```sh
-$ roslaunch simple_arm robot_spawn.launch
-```
+### Controlling the Rover 
+Refer to this table and control your robot with keyboard commands through the Ubuntu terminal!
+<center> 
 
-Now, you should be able to see each revolute joint rotating between -pi/2 to pi/2 over time!
+| **Command**        | **Description**         
+| -------------    |:-------------:|
+|     `w`   |Forward |
+|        `s` | Backward       |
+|  `a`| Left     |
+|  `d`| Right     |
+|  `b`| Brake   |
+|  `p`| Pickup Ball  |      
+ 
+
+
+
+
+
+
+
+
+
+

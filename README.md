@@ -50,7 +50,7 @@ Refer to this table and control your robot with keyboard commands through the Ub
 |  `b`| Brake   |
 |  `p`| Pickup Ball  |      
  
-
+</center>
 
 
 

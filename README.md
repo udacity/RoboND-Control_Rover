@@ -41,6 +41,7 @@ $  ./app
 Refer to this table and control your robot with keyboard commands through the Ubuntu terminal!
 
 <center> 
+  
 | **Command**        | **Description**         
 | -------------    |:-------------:|
 |     `w`   |Forward |
@@ -48,7 +49,8 @@ Refer to this table and control your robot with keyboard commands through the Ub
 |  `a`| Left     |
 |  `d`| Right     |
 |  `b`| Brake   |
-|  `p`| Pickup Ball  |      
+|  `p`| Pickup Ball  |  
+
 </center>
 
 

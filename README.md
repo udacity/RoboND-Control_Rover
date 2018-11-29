@@ -20,6 +20,7 @@ $ cd ~/Desktop/RoboND-Control_Rover
 ### Now, compile the code
 ```sh
 $ mkdir build
+$ cd src/
 $ g++ main.cpp -o ../build/app
 ```
 
